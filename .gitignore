@@ -1,0 +1,11 @@
+# Vídeos (demasiado pesados para o GitHub)
+*.mp4
+
+# Lixo do macOS
+__MACOSX/
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
