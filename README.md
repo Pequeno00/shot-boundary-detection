@@ -30,7 +30,7 @@ Cut recall on the test set stayed near-perfect (0.987); most of the precision lo
 * **Analysis & Reporting:** Jupyter Notebook, Matplotlib
 
 ## How to Run (Reproducibility)
-1. Clone the repo: `git clone https://github.com/Pequeno00/Projeto1CV.git`
+1. Clone the repo: `git clone https://github.com/Pequeno00/shot-boundary-detection.git`
 2. Install dependencies: `pip install opencv-python numpy matplotlib jupyter`
 3. Place the input videos and their ground-truth JSON annotations in an `input/` folder alongside this code folder (course-provided test data is not redistributed here for copyright reasons).
 4. Run the pipeline: `python tp1.py` — processes all videos in `input/`, writes predictions to `../output/`, and prints per-video timing and metrics (under a minute for four videos).
